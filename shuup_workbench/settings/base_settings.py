@@ -136,18 +136,10 @@ LANGUAGES = [
     # same spelling for the language names for utilizing the language
     # name translations from Django.
     ("en", "English"),
-    ("fi", "Finnish"),
-    ("it", "Italian"),
-    ("ja", "Japanese"),
-    ("pt-br", "Portuguese (Brazil)"),
-    ("pt-pt", "Portuguese (Portugal)"),
-    ("ru", "Russian"),
-    ("sv", "Swedish"),
-    ("zh-hans", "Simplified Chinese"),
     ("es", "Spanish"),
 ]
 
-PARLER_DEFAULT_LANGUAGE_CODE = "en"
+PARLER_DEFAULT_LANGUAGE_CODE = "es"
 
 PARLER_LANGUAGES = {
     None: [{"code": c, "name": n} for (c, n) in LANGUAGES],

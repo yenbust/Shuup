@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: shuup-mirage-field
+Version: 2.2.0
+Summary: Shuup Mirage Field
+Home-page: UNKNOWN
+License: UNKNOWN
+Keywords: shuup
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: django (<4,>=2)
+Requires-Dist: cryptography (<4,>=3.4.7)
+
+# Shuup Mirage Field
+
+Fields to store encrypted contents in Django.
+
+Forked from https://github.com/luojilab/django-mirage-field.
+
+## Copyright
+
+Copyright (c) 2012-2021 by Shuup Commerce Inc. <support@shuup.com>
+
+## License
+
+MIT
+
+Check [Vendor licenses](./VENDOR-LICENSES.md)
+
+
